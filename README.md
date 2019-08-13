@@ -18,4 +18,6 @@ example
 
     ./run1gpu.sh python train.py
 
+To run on more gpus: use `run2gpu.sh` or `run4gpu.sh`
 
+TODO: multi-machine job (more than 4 gpu)
