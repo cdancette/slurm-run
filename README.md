@@ -21,3 +21,10 @@ example
 To run on more gpus: use `run2gpu.sh` or `run4gpu.sh`
 
 TODO: multi-machine job (more than 4 gpu)
+
+
+## Interactive job
+
+`salloc --ntasks=10 --threads-per-core=1 --gres=gpu:1 --partition=gpu_dev`
+
+`srun --ntasks=10 --threads-per-core=1 --gres=gpu:1  --pty bash`
